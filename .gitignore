@@ -1,0 +1,11 @@
+# compiled output
+/dist
+/build
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+*.launch
+*.sublime-workspace
+.vscode/*
