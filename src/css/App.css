@@ -1,0 +1,33 @@
+.App {
+  height: 100vh;
+  background: #393A3C;
+}
+
+.main-box {
+  font-family: 'Source Sans Pro';
+  font-size: 1.3em;
+  position: absolute;
+  z-index: 10;
+  width: 200px;
+  height: 220px;
+  background: #eee;
+  top: 50%;
+  left: 50%;
+  margin: -110px 0 0 -100px;
+  padding: 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.main-box-social {
+  text-align: center;
+}
+
+.social-item {
+  padding: 1em;
+}
+
+.main-box-social a{
+  color: #000;
+}
