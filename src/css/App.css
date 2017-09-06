@@ -17,7 +17,6 @@
   padding: 20px;
   border-radius: 4px;
   box-sizing: border-box;
-  z-index: 100;
 }
 
 .main-box-social {
@@ -30,4 +29,8 @@
 
 .main-box-social a{
   color: #000;
+}
+
+.particle {
+  z-index: -10;
 }

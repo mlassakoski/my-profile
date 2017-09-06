@@ -6,3 +6,8 @@
 #menu nav {
     background: #FF6928;
 }
+
+.ul-center {
+    width: 32rem;
+    margin: 0 auto;
+}
