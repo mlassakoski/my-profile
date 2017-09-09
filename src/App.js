@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './css/App.css';
 import Particles from 'react-particles-js';
 import particleConfig from './utils/particles-config.json';
 import Menu from './react-components/Menu';
+import Main from './react-components/Main';
 import $ from 'jquery';
+import './css/App.css';
 
 class App extends Component {
 
@@ -13,15 +14,7 @@ class App extends Component {
 			<div className='App'>
 
 				<Menu />
-
-				<div className="main-box">
-					<p>Hi, I'm Mauricio.</p>
-					<p>Please check my social midias.</p>
-					<div className="main-box-social">
-						<a className="social-item" href='https://www.linkedin.com/in/mauriciolassakoski' target="_blank"><i className='fa fa-linkedin fa-2x'></i></a>
-						<a className="social-item" href='https://github.com/mlassakoski' target="_blank"><i className='fa fa-github fa-2x'></i></a>
-					</div>
-				</div>
+				<Main />
 
 				<Particles style={{
 					position: 'absolute',
