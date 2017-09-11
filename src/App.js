@@ -3,7 +3,6 @@ import Particles from 'react-particles-js';
 import particleConfig from './utils/particles-config.json';
 import Menu from './react-components/Menu';
 import Main from './react-components/Main';
-import $ from 'jquery';
 import './css/App.css';
 
 class App extends Component {
@@ -12,9 +11,6 @@ class App extends Component {
 
 		return (
 			<div className='App'>
-
-				<Menu />
-				<Main />
 
 				<Particles style={{
 					position: 'absolute',
@@ -25,6 +21,9 @@ class App extends Component {
 				}}
 					params={particleConfig}
 				/>
+
+				<Menu />
+				<Main />
 
 			</div>
 		);

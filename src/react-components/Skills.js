@@ -4,7 +4,7 @@ class Skills extends Component {
     render() {
         return (
             <div>
-                
+                skills
             </div>
         );
     }
