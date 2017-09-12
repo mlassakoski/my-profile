@@ -2,3 +2,7 @@
   height: 100vh;
   background: #313335;
 }
+
+.particles {
+  z-index: 1;
+}
