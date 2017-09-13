@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # mlassakoski profile
 
 Sample Reactjs project which I used to build my personal profile.
