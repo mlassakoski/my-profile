@@ -29,7 +29,7 @@ class Contact extends Component {
                                 <label for="textarea1">Message</label>
                             </div>
                         </div>
-                        <button className="btn waves-effect orange darken-4 right" type="submit" name="action">Submit
+                        <button className="btn waves-effect right" type="submit" name="action">Submit
                             <i className="material-icons right">send</i>
                         </button>
                     </form>
