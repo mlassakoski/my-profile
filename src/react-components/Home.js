@@ -5,6 +5,15 @@ class Home extends Component {
     render() {
         return (
             <div>
+
+            {/* <div className="presentation-box">
+                <h1>
+                    Hello,<br /> 
+                    I'm Mauricio,<br />
+                    Fullstack developer.
+                </h1>
+            </div> */}
+
                 <div className='main-box'>
                     <p>Hi, I'm Mauricio.</p>
                     <p>Please check my social midias.</p>

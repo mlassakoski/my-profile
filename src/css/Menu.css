@@ -1,24 +1,18 @@
 #menu {
-    position: relative;
-}
+  position: relative; }
 
 #menu nav {
-    background: #212223;
-}
+  background: #212223; }
 
 .ul-center {
-    width: 32rem;
-    margin: 0 auto;
-}
+  width: 32rem;
+  margin: 0 auto; }
 
 .side-nav {
-    background: #212223 !important;
-}
+  background: #212223 !important; }
 
 .side-nav li > a {
-    color: #FFF !important;
-}
+  color: #FFF !important; }
 
-.side-nav li > a > i{
-    color: #FFF !important;
-}
+.side-nav li > a > i {
+  color: #FFF !important; }
