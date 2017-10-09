@@ -19,8 +19,9 @@
     "reshake": "^1.0.7"
   },
   "scripts": {
-    "start": "react-scripts-with-sass start",
-    "build": "react-scripts-with-sass build",
+    "start": "npm start",
+    "dev": "react-scripts-with-sass start",
+    "build": "npm run build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
