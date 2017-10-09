@@ -1,0 +1,15 @@
+.avatar-box {
+    position: relative;
+
+    img{
+      width: 15rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+  .avatar-box {
+    img{
+      width: 20rem;
+    }
+  }
+}
