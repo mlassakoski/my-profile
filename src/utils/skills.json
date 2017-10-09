@@ -1,0 +1,99 @@
+[
+    {
+        "text": "Java",
+        "value": 1000
+    },
+    {
+        "text": "Javascript",
+        "value": 200
+    },
+    {
+        "text": "Angular",
+        "value": 800
+    },
+    {
+        "text": "React",
+        "value": 100000
+    },
+    {
+        "text": "Html5",
+        "value": 10
+    },
+    {
+        "text": "Css3",
+        "value": 10
+    },
+    {
+        "text": "Scrum",
+        "value": 10
+    },
+    {
+        "text": "Angular 1.5x",
+        "value": 10
+    },
+    {
+        "text": "Es6",
+        "value": 10
+    },
+    {
+        "text": "Sql",
+        "value": 10
+    },
+    {
+        "text": "Oracle DB",
+        "value": 10
+    },
+    {
+        "text": "Mockito",
+        "value": 10
+    },
+    {
+        "text": "Jasmine",
+        "value": 10
+    },
+    {
+        "text": "Scss",
+        "value": 10
+    },
+    {
+        "text": "TDD",
+        "value": 10
+    },
+    {
+        "text": "Liquibase",
+        "value": 10
+    },
+    {
+        "text": "Spring",
+        "value": 10
+    },
+    {
+        "text": "Karma",
+        "value": 10
+    },
+    {
+        "text": "H2",
+        "value": 10
+    },
+    {
+        "text": "Json",
+        "value": 10
+    }
+    ,
+    {
+        "text": "Hibernate",
+        "value": 10
+    },
+    {
+        "text": "Clean code",
+        "value": 10
+    },
+    {
+        "text": "Design Patterns",
+        "value": 10
+    },
+    {
+        "text": "Agile",
+        "value": 10
+    }
+]
