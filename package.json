@@ -16,7 +16,9 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
-    "reshake": "^1.0.7"
+    "react-tagcloud": "^1.2.0",
+    "reshake": "^1.0.7",
+    "wordcloud": "^1.0.6"
   },
   "scripts": {
     "start": "react-scripts-with-sass start",

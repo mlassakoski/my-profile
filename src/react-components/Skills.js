@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import WordCloud from 'react-d3-cloud';
+import { TagCloud } from "react-tagcloud";
 import '../css/Skills.css';
 import skills from '../utils/skills.json';
 import pokemons from '../utils/pokemons.json';
-
-const fontSizeMapper = word => Math.log2(word.value) * 5;
-const rotate = word => word.value % 10;
 
 class Skills extends Component {
 
@@ -47,12 +44,10 @@ class Skills extends Component {
             <div className="panel-body">
                 <a className="waves-effect waves-light btn" onClick={this.removePokemons.bind(this)}>Remove Pokémons</a>
 
-                <WordCloud
-                    data={this.state.data}
-                    fontSizeMapper={fontSizeMapper}
-                    rotate={rotate}
-                    padding={10}
-                />
+                <TagCloud minSize={12}
+                            maxSize={35}
+                            tags={this.state.data}
+                            onClick={tag => alert(`'${tag.value}' was selected!`)} />
             </div>
         );
     }

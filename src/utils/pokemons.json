@@ -1,46 +1,46 @@
 [
     {
-        "text": "Vulpix",
-        "value": 1000
+        "value": "Vulpix",
+        "count": 1000
     },
     {
-        "text": "Onix",
-        "value": 200
+        "value": "Onix",
+        "count": 200
     },
     {
-        "text": "Gengar",
-        "value": 50
+        "value": "Gengar",
+        "count": 50
     },
     {
-        "text": "Squirtle",
-        "value": 50
+        "value": "Squirtle",
+        "count": 50
     },
     {
-        "text": "Weedle",
-        "value": 50
+        "value": "Weedle",
+        "count": 50
     },
     {
-        "text": "Fearow",
-        "value": 50
+        "value": "Fearow",
+        "count": 50
     },
     {
-        "text": "Gloom",
-        "value": 50
+        "value": "Gloom",
+        "count": 50
     },
     {
-        "text": "Muk",
-        "value": 50
+        "value": "Muk",
+        "count": 50
     },
     {
-        "text": "Gastly",
-        "value": 50
+        "value": "Gastly",
+        "count": 50
     },
     {
-        "text": "Articuno",
-        "value": 50
+        "value": "Articuno",
+        "count": 50
     },
     {
-        "text": "Ditto",
-        "value": 50
+        "value": "Ditto",
+        "count": 50
     }
 ]
