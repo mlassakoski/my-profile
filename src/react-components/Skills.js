@@ -13,33 +13,40 @@ class Skills extends Component {
             data: [],
             pokemonActive: false,
             fixedShake: true,
-            radarData: [
+            selfSkills: [
                 {
-                    "Study": 83,
-                    "Sleep": 65,
-                    "Code": 87,
-                    "Flexibility": 68,
-                    "Agility": 80,
-                    "endurance": 29
+                    "Communication": 70,
+                    "Flexibillity": 72,
+                    "Self-taught": 97,
+                    "Intrapreneurship": 85,
+                    "Creativity": 78,
+                    "Team Work": 92,
+                    "Self motivation": 73
+                }
+            ],
+            professionalSkills: [
+                {
+                    "Java": 90,
+                    "TDD": 75,
+                    "Typescript": 87,
+                    "Database": 60,
+                    "Scrum": 90,
+                    "Linux": 40
                 }
             ],
             chartOptions: {
-                width: 300,
-                height: 300,
+                width: 200,
+                height: 200,
                 margin: { top: 20, left: 20, right: 20, bottom: 20 },
-                r: 150,
+                r: 85,
                 max: 150,
-                fill: "#2980B9",
-                stroke: "#2980B9",
-                animate: {
-                    type: 'oneByOne',
-                    duration: 200
-                },
+                fill: "#2bbbad",
+                stroke: "#2bbbad",
                 label: {
                     fontFamily: 'Arial',
                     fontSize: 14,
                     fontWeight: true,
-                    fill: '#34495E'
+                    fill: '#fff'
                 }
             }
         };
@@ -75,12 +82,12 @@ class Skills extends Component {
                 {/* <a className="waves-effect waves-light btn" onClick={this.removePokemons.bind(this)}>Remove Pokémons</a> */}
 
                 <div className="row">
-                    <div className="col s6 radar-chart-box">
-                        <Radar data={this.state.radarData} options={this.state.chartOptions} />
+                    <div className="col s12 m6 radar-chart-box">
+                        <Radar data={this.state.selfSkills} options={this.state.chartOptions} />
                     </div>
 
-                    <div className="col s6 radar-chart-box">
-                        <Radar data={this.state.radarData} options={this.state.chartOptions} />
+                    <div className="col s12 m6 radar-chart-box">
+                        <Radar data={this.state.professionalSkills} options={this.state.chartOptions} />
                     </div>
                 </div>
 
