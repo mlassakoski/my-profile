@@ -19,7 +19,7 @@
     "reshake": "^1.0.7"
   },
   "scripts": {
-    "start": "npm start",
+    "start": "react-scripts-with-sass start",
     "dev": "react-scripts-with-sass start",
     "build": "npm run build",
     "test": "react-scripts test --env=jsdom",
