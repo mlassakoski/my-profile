@@ -1,0 +1,38 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import url(https://fonts.googleapis.com/css?family=Roboto:900);
+@import url(https://fonts.googleapis.com/css?family=Risque);
+@import '~animate.css';
+@import 'variables.scss';
+
+.presentation-box {
+  teximate {
+    p {
+      display: block;
+      -webkit-margin-before: 0em;
+      -webkit-margin-after: 0em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+      line-height: 1.1;
+    }
+  }
+}
+
+.letter {
+    font-size: 2.4em;
+    font-weight: bold;
+    font-family: 'Risque';
+    color: $nav-item-color;
+    cursor: default;
+    text-shadow: 1px 1px #000;
+
+    &:hover {
+      color: $nav-item-color-hover;
+    }
+}
+
+@media (min-width: 700px) {
+  .letter {
+      font-size: 3.7em;
+  }
+}
+

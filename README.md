@@ -1,39 +1,27 @@
-# mlassakoski profile
+# MyProfile
 
-Sample Reactjs project which I used to build my personal profile.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
 
+## Development server
 
-## Requirements:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
- * Nodejs 4 + installed;
+## Code scaffolding
 
-## Installation
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-  * Clone the project from github
-  `https://github.com/mlassakoski/my-profile.git`
+## Build
 
-#### Download project dependencies
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-  * `npm install`
+## Running unit tests
 
-## Usage 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-* Execute `npm start` to run the application.
+## Running end-to-end tests
 
-## Contributing
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request ;p
+## Further help
 
-
-## Credits
-
-* Mauricio Lassakoski
-
-
-## License
-
-* MIT
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
