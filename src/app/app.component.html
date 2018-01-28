@@ -2,7 +2,7 @@
   <mat-toolbar class="toolbar-menu">
 
     <button class="hide-on-med-and-up" mat-icon-button (click)="snav.toggle()">
-      <!-- <mat-icon>menu</mat-icon> -->
+      <mat-icon>menu</mat-icon>
     </button>
 
     <!-- logo -->
@@ -11,12 +11,12 @@
     </div>
 
     <!-- menu items -->
-    <!-- <ul>
+    <ul>
       <li *ngFor="let item of menu" class="hide-on-small-only">
         <mat-icon>{{item.icon}}</mat-icon>
-        <a>{{item.name}}</a>
+        <a [routerLink]="item.url">{{item.name}}</a>
       </li>
-    </ul> -->
+    </ul>
 
     <!-- social media -->
     <div class="social-media-icon">
@@ -33,7 +33,7 @@
   <mat-sidenav-container class="snav-container">
     <mat-sidenav #snav>
       <mat-nav-list>
-        <a mat-list-item *ngFor="let item of menu" routerLink="item.url">{{item.name}}</a>
+        <a mat-list-item *ngFor="let item of menu" [routerLink]="item.url">{{item.name}}</a>
       </mat-nav-list>
     </mat-sidenav>
 
