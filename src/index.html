@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Mauricio Lassakoski - mlassakoski</title>
@@ -7,8 +8,40 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body,
+    html {
+      height: 100%;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-family: sans-serif;
+      opacity: .4;
+      color: black;
+      font-size: 1.4em;
+    }
+
+    .loader-panel {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      overflow-y: hidden;
+    }
+
+  </style>
 </head>
+
 <body>
-  <mlassakoski-root></mlassakoski-root>
+  <mlassakoski-root>
+    <div class="loader-panel">
+      <img src="assets/pacman.svg" alt="">
+      <div class="logo">Loading...</div>
+    </div>
+  </mlassakoski-root>
 </body>
+
 </html>

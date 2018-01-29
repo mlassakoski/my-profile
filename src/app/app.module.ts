@@ -44,9 +44,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app.routing.module';
 import { AboutComponent } from './about/about.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AboutComponent],
+  declarations: [AppComponent, HomeComponent, AboutComponent, SkillsComponent],
   imports: [
     MatAutocompleteModule,
     MatButtonModule,

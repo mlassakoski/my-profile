@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
+
 import { fadeInAnimation } from 'app/animations/index';
 
 @Component({
-  selector: 'mlassakoski-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss'],
+  selector: 'mlassakoski-skills',
+  templateUrl: './skills.component.html',
+  styleUrls: ['./skills.component.scss'],
   animations: [fadeInAnimation],
   // tslint:disable-next-line:use-host-property-decorator
   host: { '[@fadeInAnimation]': 'true' }
 })
-export class AboutComponent implements OnInit {
+export class SkillsComponent implements OnInit {
 
   constructor() { }
 

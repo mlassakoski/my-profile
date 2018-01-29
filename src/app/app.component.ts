@@ -14,14 +14,14 @@ export class AppComponent {
     },
     {
       name: 'About Me',
-      icon: 'home',
+      icon: 'person',
       url: '/about-me'
     },
-    // {
-    //   name: 'Skills',
-    //   icon: 'home',
-    //   url: '/skills'
-    // }
+    {
+      name: 'Skills',
+      icon: 'code',
+      url: '/skills'
+    }
   ];
 
   constructor() { }

@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from 'app/home/home.component';
 import { AboutComponent } from 'app/about/about.component';
+import { SkillsComponent } from 'app/skills/skills.component';
 
 @NgModule({
   imports: [RouterModule.forRoot(
@@ -19,6 +20,10 @@ import { AboutComponent } from 'app/about/about.component';
       {
         path: 'about-me',
         component: AboutComponent,
+      },
+      {
+        path: 'skills',
+        component: SkillsComponent,
       },
       { path: '**', redirectTo: '' }
     ],
