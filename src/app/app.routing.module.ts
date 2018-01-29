@@ -21,7 +21,10 @@ import { AboutComponent } from 'app/about/about.component';
         component: AboutComponent,
       },
       { path: '**', redirectTo: '' }
-    ])
+    ],
+    {
+      useHash: true
+    })
   ],
   exports: [RouterModule]
 })

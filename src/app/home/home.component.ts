@@ -1,10 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { TeximateOptions, TeximateHover, TeximateOrder } from 'ng-teximate';
+import { fadeInAnimation } from './../animations/index';
 
 @Component({
   selector: 'mlassakoski-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
+  animations: [fadeInAnimation],
+  host: { '[@fadeInAnimation]': 'true' }
 })
 export class HomeComponent implements OnInit {
   public effectOptions: TeximateOptions;
