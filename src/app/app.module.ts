@@ -47,7 +47,12 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AboutComponent, SkillsComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    SkillsComponent
+  ],
   imports: [
     MatAutocompleteModule,
     MatButtonModule,
@@ -94,6 +99,6 @@ import { SkillsComponent } from './skills/skills.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
 
 platformBrowserDynamic().bootstrapModule(AppModule);

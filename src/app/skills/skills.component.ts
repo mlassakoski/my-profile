@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { fadeInAnimation } from 'app/animations/index';
+import { frontend } from 'app/skills/front-end';
 
 @Component({
   selector: 'mlassakoski-skills',
@@ -11,6 +12,8 @@ import { fadeInAnimation } from 'app/animations/index';
   host: { '[@fadeInAnimation]': 'true' }
 })
 export class SkillsComponent implements OnInit {
+
+  public frontend = frontend;
 
   constructor() { }
 

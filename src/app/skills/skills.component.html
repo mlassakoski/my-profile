@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="skills">
+
+    <mat-card class="skill-card">
+      <mat-card-header>
+        <mat-card-title>Front-end</mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+        <div class="icon-panel" *ngFor="let item of frontend">
+          <div class="icon-box">
+            <img src="{{item.url}}" width="72" alt="item.name">
+            {{item.name}}
+          </div>
+        </div>
+      </mat-card-content>
+
+    </mat-card>
+  </div>
+</div>

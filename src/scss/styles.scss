@@ -4,6 +4,11 @@
 @import '~animate.css';
 @import 'variables.scss';
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .presentation-box {
   teximate {
     p {
