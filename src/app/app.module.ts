@@ -45,6 +45,7 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app.routing.module';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
+import { SkillsService } from './skills/skills.service';
 
 @NgModule({
   declarations: [
@@ -96,7 +97,9 @@ import { SkillsComponent } from './skills/skills.component';
 
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    SkillsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

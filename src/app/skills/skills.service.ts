@@ -1,15 +1,16 @@
 import { Injectable } from '@angular/core';
 
-import { frontend } from 'app/skills/front-end';
-import { backend } from 'app/skills/back-end';
-import { database } from 'app/skills/database';
+import { frontend } from './model/front-end';
+import { backend } from './/model/back-end';
+import { database } from './/model/database';
+import { Iskill } from './/model/Iskill';
 
 @Injectable()
 export class SkillsService {
 
   constructor() { }
 
-  public getSkills() {
+  public getSkills(): Iskill[] {
     return [
       {
         name: 'Front-end',
