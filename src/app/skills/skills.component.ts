@@ -1,5 +1,5 @@
 import { SkillsService } from './skills.service';
-import { Iskill } from 'app/skills/model/Iskill';
+import { IskillGroup } from 'app/skills/model/Iskill-group';
 import { Component, OnInit } from '@angular/core';
 
 import { fadeInAnimation } from 'app/animations/index';
@@ -14,7 +14,7 @@ import { fadeInAnimation } from 'app/animations/index';
 })
 export class SkillsComponent implements OnInit {
 
-  public skills: Iskill[] = [];
+  public skills: IskillGroup[] = [];
 
   constructor(private _service: SkillsService) { }
 
