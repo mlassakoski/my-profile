@@ -2,74 +2,55 @@
 $snav-bg: #262728;
 $nav-item-color: #fff;
 $nav-item-color-hover: #00B09A;
-
-.main-container {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  .toolbar-menu {
+.toolbar-menu {
     display: flex;
     justify-content: space-between;
     background: $snav-bg;
-
     ul {
-      display: flex;
-      list-style: none;
-
-      li {
+        display: flex;
+        list-style: none;
+        li {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            color: $nav-item-color;
+            .mat-icon {
+                margin-right: 0.3rem;
+            }
+            a {
+                color: $nav-item-color;
+                cursor: pointer;
+                &:hover {
+                    color: $nav-item-color-hover;
+                }
+            }
+        }
+    }
+    .social-media-icon {
         display: flex;
         align-items: center;
-        padding: 1rem;
-        color: $nav-item-color;
-
-        .mat-icon {
-          margin-right: 0.3rem;
-        }
-
+        justify-content: space-between;
         a {
-          color: $nav-item-color;
-          cursor: pointer;
-
-          &:hover {
-            color: $nav-item-color-hover;
-          }
+            display: flex;
+            i {
+                margin: 0 0.4rem;
+                color: $nav-item-color;
+                &:hover {
+                    color: $nav-item-color-hover;
+                }
+            }
         }
-      }
     }
+}
 
-    .social-media-icon {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      a {
-        display: flex;
-        i {
-          margin: 0 0.4rem;
-          color: $nav-item-color;
-
-          &:hover {
-            color: $nav-item-color-hover;
-          }
-        }
-      }
-    }
-  }
-
-  .mat-icon {
+.mat-icon {
     color: $nav-item-color;
-  }
+}
 
-  .snav-container {
+.snav-container {
     height: 100%;
-
+    // background: #6e6e6e;
     .mat-drawer {
-      min-width: 12rem;
+        min-width: 12rem;
     }
-  }
 }
