@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     .text-panel {
-        margin-bottom: 2rem;
+        margin: 0 0 2rem 0;
         padding: 1rem;
         max-width: 100%;
         .intro {
@@ -14,9 +14,27 @@
             color: #555;
         }
     }
+    .img-panel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 25rem;
+      }
+    }
 }
-
-@media only screen and (min-width: 1200px) {}
+.skill-panel {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 1200px) {
+  .about-me {
+    .text-panel {
+        margin: 0 2rem 2rem 0;
+    }
+}
+}
 
 @media only screen and (min-width: 992px) {
     .about-me {

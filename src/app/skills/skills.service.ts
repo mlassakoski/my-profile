@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { frontend } from './model/front-end';
 import { backend } from './model/back-end';
 import { database } from './model/database';
+import { other } from './model/other';
 import { IskillGroup } from './model/Iskill-group';
 
 @Injectable()
@@ -23,6 +24,10 @@ export class SkillsService {
       {
         name: 'Database',
         skills: database
+      },
+      {
+        name: 'Other',
+        skills: other
       }
     ];
   }

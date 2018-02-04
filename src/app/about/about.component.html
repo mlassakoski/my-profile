@@ -9,10 +9,24 @@
         vestibulum magna et, viverra eros. Phasellus egestas nibh vitae sapien sollicitudin convallis. Proin id est commodo, consequat purus et,
         lacinia tortor. Phasellus vitae finibus dui.
       </p>
+
     </div>
     <div class="img-panel">
-        <img src="/assets/mlassakoski.png" alt="" class="responsive-img">
+        <img src="/assets/mlassakoski.png" alt="Mauricio Lassakoski" class="circle responsive-img">
     </div>
   </div>
-  <img src="/assets/oracle_logo.png" width="400" alt="oracle cerfified" class="responsive-img">
+
+  <div class="skill-panel">
+    <ngx-charts-bar-horizontal
+      [scheme]="scheme"
+      [results]="single"
+      [yAxis]="showYAxis"
+      [showGridLines]="showGridLines"
+      (window:resize)="onResize($event)"
+      [view]="view">
+    </ngx-charts-bar-horizontal>
+
+    <!-- <img src="/assets/oracle_logo.png" alt="oracle cerfified" class="responsive-img"> -->
+  </div>
+
 </div>
