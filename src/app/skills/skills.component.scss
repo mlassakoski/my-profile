@@ -1,27 +1,39 @@
 .skills {
-  .skill-card {
-    margin-top: 2rem;
-
-    .mat-card-header {
-      border-bottom: 1px solid #ccc;
-      .mat-card-title  {
-        font-weight: bold;
-        font-size: 2em;
-      }
+    .skill-card {
+        margin: 2rem 0 2rem 0;
+        .mat-card-header {
+            border-bottom: 1px solid #ccc;
+            .mat-card-title {
+                font-weight: bold;
+                font-size: 2em;
+            }
+        }
+        .mat-card-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .icon-panel {
+                flex-direction: row;
+                .icon-box {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 1rem 1rem 0 0;
+                }
+            }
+        }
     }
-      .mat-card-content {
-          display: flex;
-          flex-wrap: wrap;
-          .icon-panel {
-              flex-direction: row;
-              .icon-box {
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: center;
-                  align-items: center;
-                  margin: 1rem 1rem 0 0;
-              }
-          }
-      }
+}
+
+@media (min-width: 1024px) {
+    .skills {
+        .skill-card {
+            .mat-card-content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: start;
+            }
+        }
     }
 }

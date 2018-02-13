@@ -50,6 +50,11 @@ $nav-item-color-hover: #00B09A;
 .snav-container {
     height: 100%;
     // background: #6e6e6e;
+
+    .mat-drawer-content  {
+      overflow: hidden;
+    }
+
     .mat-drawer {
         min-width: 12rem;
     }
