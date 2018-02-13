@@ -8,9 +8,14 @@ $nav-item-color-hover: #bbb;
         display: flex;
         justify-content: space-between;
         background: $snav-bg;
-        width: 60%;
-        height: 100%;
+        width: 100%;
         margin: auto;
+        button {
+            color: $nav-item-color;
+            &:hover {
+                color: $nav-item-color-hover;
+            }
+        }
         ul {
             display: flex;
             list-style: none;
@@ -38,8 +43,8 @@ $nav-item-color-hover: #bbb;
             align-items: center;
             justify-content: space-between;
             a {
-              display: flex;
-              margin-left: 0.5rem;
+                display: flex;
+                margin-left: 0.5rem;
                 i {
                     margin: 0 0.4rem;
                     color: $nav-item-color;
@@ -59,5 +64,23 @@ $nav-item-color-hover: #bbb;
     }
     .mat-drawer {
         min-width: 12rem;
+    }
+}
+
+@media (min-width: 600px) {
+  .toolbar-menu {
+      .nav-menu {
+          height: 100%;
+          width: 60%
+      }
+  }
+}
+
+@media (min-width: 768px) {
+    .toolbar-menu {
+        .nav-menu {
+            height: 100%;
+            justify-content: space-between;
+        }
     }
 }
