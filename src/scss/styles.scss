@@ -6,7 +6,6 @@
 
 .main-container {
   height: 100%;
-  overflow-x: hidden;
   .container {
     width: 90%;
     margin: 0 auto;
@@ -42,8 +41,8 @@
 @media (min-width: 700px) {
   .letter {
       font-size: 3.7em;
+    }
   }
-}
 
 @media (min-width: 1360px) {
   .main-container {
