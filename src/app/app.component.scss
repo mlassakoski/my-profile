@@ -3,60 +3,60 @@ $snav-bg: #262728;
 $nav-item-color: #fff;
 $nav-item-color-hover: #bbb;
 .toolbar-menu {
-  background: $snav-bg;
-  .teste {
-
-    display: flex;
-    justify-content: space-between;
     background: $snav-bg;
-    ul {
+    .nav-menu {
         display: flex;
-        list-style: none;
-        li {
+        justify-content: space-between;
+        background: $snav-bg;
+        width: 60%;
+        height: 100%;
+        margin: auto;
+        ul {
             display: flex;
-            align-items: center;
-            padding: 1rem;
-            color: $nav-item-color;
-            .mat-icon {
-                margin-right: 0.3rem;
-            }
-            a {
+            list-style: none;
+            li {
                 display: flex;
                 align-items: center;
+                padding: 1rem;
                 color: $nav-item-color;
-                cursor: pointer;
-                &:hover {
-                    color: $nav-item-color-hover;
+                .mat-icon {
+                    margin-right: 0.3rem;
+                }
+                a {
+                    display: flex;
+                    align-items: center;
+                    color: $nav-item-color;
+                    cursor: pointer;
+                    &:hover {
+                        color: $nav-item-color-hover;
+                    }
                 }
             }
         }
-    }
-    .social-media-icon {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        a {
+        .social-media-icon {
             display: flex;
-            i {
-                margin: 0 0.4rem;
-                color: $nav-item-color;
-                &:hover {
-                    color: $nav-item-color-hover;
+            align-items: center;
+            justify-content: space-between;
+            a {
+              display: flex;
+              margin-left: 0.5rem;
+                i {
+                    margin: 0 0.4rem;
+                    color: $nav-item-color;
+                    &:hover {
+                        color: $nav-item-color-hover;
+                    }
                 }
             }
         }
     }
-  }
 }
 
 .snav-container {
-    height: 100%;
-    // background: #6e6e6e;
-
-    .mat-drawer-content  {
-      overflow: hidden;
+    height: 100%; // background: #6e6e6e;
+    .mat-drawer-content {
+        overflow: hidden;
     }
-
     .mat-drawer {
         min-width: 12rem;
     }
