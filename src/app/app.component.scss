@@ -2,14 +2,27 @@
 $snav-bg: #262728;
 $nav-item-color: #fff;
 $nav-item-color-hover: #bbb;
-.toolbar-menu {
+.nav-menu {
     background: $snav-bg;
-    .nav-menu {
+    .toolbar-menu {
         display: flex;
         justify-content: space-between;
         background: $snav-bg;
         width: 100%;
         margin: auto;
+
+        .logo {
+          a {
+            display: flex;
+            align-items: center;
+            img {
+              width: 3rem;
+                &:hover {
+                    color: $nav-item-color-hover;
+                }
+            }
+          }
+        }
         button {
             color: $nav-item-color;
             &:hover {
@@ -58,7 +71,8 @@ $nav-item-color-hover: #bbb;
 }
 
 .snav-container {
-    height: 100%; // background: #6e6e6e;
+    height: 100%;
+    position: inherit;
     .mat-drawer-content {
         overflow: hidden;
     }
@@ -67,20 +81,18 @@ $nav-item-color-hover: #bbb;
     }
 }
 
-@media (min-width: 600px) {
-  .toolbar-menu {
-      .nav-menu {
-          height: 100%;
-          width: 60%
-      }
-  }
+@media (min-width: 768px) {
+    .nav-menu {
+        .toolbar-menu {
+            justify-content: space-between;
+        }
+    }
 }
 
-@media (min-width: 768px) {
-    .toolbar-menu {
-        .nav-menu {
-            height: 100%;
-            justify-content: space-between;
+@media (min-width: 1360px) {
+    .nav-menu {
+        .toolbar-menu {
+            width: 60%
         }
     }
 }

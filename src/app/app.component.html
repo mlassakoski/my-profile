@@ -1,13 +1,15 @@
 <div class="main-container">
-  <mat-toolbar class="toolbar-menu">
-    <div class="nav-menu">
+  <div class="nav-menu">
+    <mat-toolbar class="toolbar-menu">
       <button class="hide-on-med-and-up" mat-icon-button (click)="snav.toggle()">
         <mat-icon>menu</mat-icon>
       </button>
 
       <!-- logo -->
-      <div class="hide-on-small-only">
-
+      <div class="logo hide-on-small-only">
+        <a [routerLink]="'/home'">
+          <img src="/assets/logo_small_white.png" alt="mlassakoski">
+        </a>
       </div>
 
       <!-- menu items -->
@@ -29,8 +31,8 @@
           <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
         </a>
       </div>
-    </div>
-  </mat-toolbar>
+    </mat-toolbar>
+  </div>
 
   <!-- nav menu -->
   <mat-sidenav-container class="snav-container">

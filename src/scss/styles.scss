@@ -3,26 +3,25 @@
 @import url(https://fonts.googleapis.com/css?family=Risque);
 @import '~animate.css';
 @import 'variables.scss';
-
 .main-container {
-  height: 100%;
-  .container {
-    width: 90%;
-    margin: 0 auto;
-  }
+    height: 100%;
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 .presentation-box {
-  teximate {
-    p {
-      display: block;
-      -webkit-margin-before: 0em;
-      -webkit-margin-after: 0em;
-      -webkit-margin-start: 0px;
-      -webkit-margin-end: 0px;
-      line-height: 1.1;
+    teximate {
+        p {
+            display: block;
+            -webkit-margin-before: 0em;
+            -webkit-margin-after: 0em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            line-height: 1.1;
+        }
     }
-  }
 }
 
 .letter {
@@ -32,23 +31,21 @@
     color: $nav-item-color;
     cursor: default;
     text-shadow: 1px 1px #000;
-
     &:hover {
-      color: $nav-item-color-hover;
+        color: $nav-item-color-hover;
     }
 }
 
-@media (min-width: 700px) {
-  .letter {
-      font-size: 3.7em;
+@media (min-width: 768px) {
+    .letter {
+        font-size: 2.7em;
     }
-  }
+}
 
 @media (min-width: 1360px) {
-  .main-container {
-    .container {
-      width: 60%;
+    .main-container {
+        .container {
+            width: 60%;
+        }
     }
-  }
 }
-

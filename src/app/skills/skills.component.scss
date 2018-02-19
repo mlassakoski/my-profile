@@ -26,6 +26,15 @@
     }
 }
 
+@media (min-width: 768px) {
+    .toolbar-menu {
+        .nav-menu {
+            height: 100%;
+            justify-content: space-between;
+        }
+    }
+}
+
 @media (min-width: 1024px) {
     .skills {
         .skill-card {
@@ -34,6 +43,14 @@
                 flex-wrap: wrap;
                 justify-content: start;
             }
+        }
+    }
+}
+
+@media (min-width: 1360px) {
+    .toolbar-menu {
+        .nav-menu {
+            width: 60%
         }
     }
 }
