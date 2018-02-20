@@ -1,31 +1,37 @@
 <div class="home">
   <div class="container">
-    <div class="presentation-box">
-      <div>
-        <teximate [text]="'Hello!'" [effect]="effectOptions" [hover]="hoverOptions"></teximate>
-        <teximate [text]="'I am Mauricio,'" [effect]="effectOptions" [hover]="hoverOptions"></teximate>
-        <teximate [text]="'Fullstack Software Developer.'" [effect]="effectOptions" [hover]="hoverOptions"></teximate>
-      </div>
-      <div class="lightsaber">
-        <div class="back" [ngClass]="{'open': isOpen }">
-          <div class="outer_glow" style="background-color: #87dc5a;"></div>
-          <div class="middle_glow" style="background-color: #FCFEFC;"></div>
-          <div class="core_glow"></div>
-          <div class="handle" (click)="swapSaber()">
-            <img src="../assets/lightsaber.png">
+    <div class="main-box">
+      <div class="presentation-box">
+        <div>
+          <teximate [text]="'Hello!'" [effect]="effectOptions" [hover]="hoverOptions"></teximate>
+          <teximate [text]="'I am Mauricio,'" [effect]="effectOptions" [hover]="hoverOptions"></teximate>
+          <teximate [text]="'Fullstack Software Developer.'" [effect]="effectOptions" [hover]="hoverOptions"></teximate>
+        </div>
+        <div class="lightsaber">
+          <div class="back" [ngClass]="{'open': isOpen }">
+            <div class="outer_glow" style="background-color: #87dc5a;"></div>
+            <div class="middle_glow" style="background-color: #FCFEFC;"></div>
+            <div class="core_glow"></div>
+            <div class="handle" (click)="swapSaber()">
+              <img src="/assets/lightsaber.png">
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="yoda-box">
-      <div class="yoda">
-        <div class="speech-bubble">
-          <span>Hire me, you should!</span>
-        </div>
-        <img src="../assets/yoda2.png" alt="yoda">
+      <div class="main-logo hide-on-med-and-down">
+        <img src="/assets/mlassakoski_logo.png" alt="mlassakoski">
       </div>
     </div>
+
+      <div class="yoda-box">
+        <div class="yoda">
+          <div class="speech-bubble">
+            <span>Hire me, you should!</span>
+          </div>
+          <img src="/assets/yoda2.png" alt="yoda">
+        </div>
+      </div>
   </div>
 </div>
 
@@ -60,7 +66,7 @@
     </div>
 
     <!-- <div class="col s12 m12 l6"> </div> -->
-  <!-- </div>
+<!-- </div>
 
   <div class="row">
     <div class="yoda-box col s12 m12 l12">
