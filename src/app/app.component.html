@@ -7,8 +7,10 @@
 
       <!-- logo -->
       <div class="logo hide-on-small-only">
-        <a [routerLink]="'/home'">
-          <img src="/assets/logo_small_white.png" alt="mlassakoski">
+        <a [routerLink]="'/home'"
+           [ngClass]="{'logo_small_white' : !logoOvered, 'logo_small_hover' : logoOvered}"
+           (mouseout)="logoOvered=false"
+           (mouseover)="logoOvered=true">
         </a>
       </div>
 

@@ -13,13 +13,10 @@
             flex-wrap: wrap;
             justify-content: space-between;
             .icon-panel {
-                flex-direction: row;
+                text-align: center;
+                margin: 0.5rem;
                 .icon-box {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
                     align-items: center;
-                    margin: 1rem 1rem 0 0;
                 }
             }
         }
@@ -53,4 +50,204 @@
             width: 60%
         }
     }
+}
+
+// sprites
+.bootstrap,
+.bower,
+.docker,
+.es6,
+.git,
+.gulp,
+.html,
+.jasmine,
+.java,
+.jenkins,
+.jira,
+.karma,
+.liquibase,
+.materialize,
+.maven,
+.mocha,
+.mockito,
+.mongo,
+.mysql,
+.node,
+.oracle,
+.postgrees,
+.react,
+.sass,
+.spring,
+.typescript,
+.css,
+.angular {
+    background: url(/assets/icons/skills_sprite.png) no-repeat;
+}
+
+.bootstrap {
+    background-position: -300px -76.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.bower {
+    background-position: -225px -76.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.docker {
+    background-position: -75px -229.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.es6 {
+    background-position: -75px -76.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.git {
+    background-position: -226px -229.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.gulp {
+    background-position: 0 -76.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.html {
+    background-position: -451px -229.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.jasmine {
+    background-position: -450px 0;
+    width: 72px;
+    height: 72px;
+}
+
+.java {
+    background-position: 0 -152.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.jenkins {
+    background-position: -151px -229.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.jira {
+    background-position: 0 -229.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.karma {
+    background-position: -375px 0;
+    width: 72px;
+    height: 72px;
+}
+
+.liquibase {
+    background-position: -150px -153.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.materialize {
+    background-position: -300px 0;
+    width: 72px;
+    height: 72px;
+}
+
+.maven {
+    background-position: -225px -153.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.mocha {
+    background-position: -225px 0;
+    width: 72px;
+    height: 72px;
+}
+
+.mockito {
+    background-position: -75px -152.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.mongo {
+    background-position: -451px -152.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.mysql {
+    background-position: -301px -229.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.node {
+    background-position: -450px -77.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.oracle {
+    background-position: -375px -152.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.postgrees {
+    background-position: -300px -152.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.react {
+    background-position: -150px 0;
+    width: 72px;
+    height: 72px;
+}
+
+.sass {
+    background-position: -75px 0;
+    width: 72px;
+    height: 72px;
+}
+
+.spring {
+    background-position: -375px -229.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.typescript {
+    background-position: 0 0;
+    width: 72px;
+    height: 72px;
+}
+
+.css {
+    background-position: -150px -76.00001525878906px;
+    width: 72px;
+    height: 72px;
+}
+
+.angular {
+    background-position: -375px -76.00001525878906px;
+    width: 72px;
+    height: 72px;
 }

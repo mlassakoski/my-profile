@@ -96,3 +96,20 @@ $nav-item-color-hover: #bbb;
         }
     }
 }
+
+// sprites
+.logo_small_hover, .logo_small_white{
+	background: url(/assets/icons/logo_small_sprites.png) no-repeat;
+}
+
+.logo_small_hover{
+	background-position: -55px -1px ;
+	width: 52px;
+	height: 52px;
+}
+
+.logo_small_white{
+	background-position: -1px -1px ;
+	width: 52px;
+	height: 52px;
+}

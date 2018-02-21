@@ -1,18 +1,18 @@
 export const database = [
   {
     name: 'Mongo Db',
-    url: 'assets/icons/mongo.png'
+    class: 'mongo'
   },
   {
     name: 'Oracle',
-    url: 'assets/icons/oracle.png'
+    class: 'oracle'
   },
   {
     name: 'My Sql',
-    url: 'assets/icons/mysql.png'
+    class: 'mysql'
   },
   {
     name: 'Postgrees',
-    url: 'assets/icons/postgrees.png'
+    class: 'postgrees'
   }
 ];

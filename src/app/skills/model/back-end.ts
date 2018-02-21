@@ -1,22 +1,22 @@
 export const backend = [
   {
     name: 'Java',
-    url: 'assets/icons/java.png'
+    class: 'java'
   },
   {
     name: 'Liquibase',
-    url: 'assets/icons/liquibase.png'
+    class: 'liquibase'
   },
   {
     name: 'Maven',
-    url: 'assets/icons/maven.png'
+    class: 'maven'
   },
   {
     name: 'Mockito',
-    url: 'assets/icons/mockito.png'
+    class: 'mockito'
   },
   {
     name: 'Spring',
-    url: 'assets/icons/spring.png'
+    class: 'spring'
   }
 ];

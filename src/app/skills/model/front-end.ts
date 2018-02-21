@@ -1,54 +1,58 @@
 export const frontend = [
   {
     name: 'React',
-    url: 'assets/icons/react.png'
+    class: 'react'
   },
   {
     name: 'Angular',
-    url: 'assets/icons/angular.png'
+    class: 'angular'
   },
   {
     name: 'Typescript',
-    url: 'assets/icons/typescript.png'
+    class: 'typescript'
   },
   {
     name: 'Es 6',
-    url: 'assets/icons/es6.png'
+    class: 'es6'
   },
   {
     name: 'Html 5',
-    url: 'assets/icons/html.png'
+    class: 'html'
   },
   {
     name: 'Css 3',
-    url: 'assets/icons/css.png'
+    class: 'css'
   },
   {
     name: 'Materialize',
-    url: 'assets/icons/materialize.png'
+    class: 'materialize'
   },
   {
     name: 'Bootstrap',
-    url: 'assets/icons/bootstrap.png'
+    class: 'bootstrap'
   },
   {
     name: 'Sass',
-    url: 'assets/icons/sass.png'
+    class: 'sass'
   },
   {
     name: 'Gulp',
-    url: 'assets/icons/gulp.png'
+    class: 'gulp'
   },
   {
     name: 'Bower',
-    url: 'assets/icons/bower.png'
+    class: 'bower'
   },
   {
     name: 'Jasmine',
-    url: 'assets/icons/jasmine.png'
+    class: 'jasmine'
+  },
+  {
+    name: 'Karma',
+    class: 'karma'
   },
   {
     name: 'Mocha',
-    url: 'assets/icons/mocha.png'
+    class: 'mocha'
   }
 ];

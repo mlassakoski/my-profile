@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  menu = [
+
+  public logoOvered = false;
+  public menu = [
     {
       name: 'Home',
       icon: 'home',

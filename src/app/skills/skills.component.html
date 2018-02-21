@@ -8,10 +8,8 @@
 
       <mat-card-content>
         <div class="icon-panel" *ngFor="let item of skill.skills">
-          <div class="icon-box">
-            <img src="{{ item.url }}" alt="{{ item.name }}">
-            {{ item.name }}
-          </div>
+          <div class="icon-box" [ngClass]="item.class"> </div>
+          {{ item.name }}
         </div>
       </mat-card-content>
 

@@ -1,14 +1,18 @@
 export const other = [
   {
     name: 'Docker',
-    url: 'assets/icons/docker.png'
+    class: 'docker'
   },
   {
     name: 'Git',
-    url: 'assets/icons/git.png'
+    class: 'git'
   },
   {
     name: 'Jira',
-    url: 'assets/icons/jira.png'
+    class: 'jira'
+  },
+  {
+    name: 'Jenkins',
+    class: 'jenkins'
   }
 ];
