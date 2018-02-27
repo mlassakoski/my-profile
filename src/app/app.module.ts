@@ -47,13 +47,15 @@ import { AppRoutingModule } from './app.routing.module';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SkillsService } from './skills/skills.service';
+import { BarChartComponent } from './shared/bar-chart/bar-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    SkillsComponent
+    SkillsComponent,
+    BarChartComponent
   ],
   imports: [
     MatAutocompleteModule,

@@ -1,22 +1,16 @@
-export const single = [
+export const skills = [
   {
     name: 'Team Work',
-    value: 90
+    value: '75%',
+    style: {
+      width: '75%',
+    }
   },
   {
-    name: 'Self Motivation',
-    value: 95
-  },
-  {
-    name: 'Creativity',
-    value: 80
-  },
-  {
-    name: 'Troubleshooting',
-    value: 85
-  },
-  {
-    name: 'Leadership',
-    value: 80
+    name: 'Team Work',
+    value: '85%',
+    style: {
+      width: '85%',
+    }
   }
 ];

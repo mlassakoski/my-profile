@@ -1,6 +1,5 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 @import url(https://fonts.googleapis.com/css?family=Roboto:900);
-@import url(https://fonts.googleapis.com/css?family=Risque);
 @import '~animate.css';
 @import 'variables.scss';
 .main-container {
@@ -27,7 +26,7 @@
 .letter {
     font-size: 2.4em;
     font-weight: bold;
-    font-family: 'Risque';
+    font-family: 'Roboto';
     color: $nav-item-color;
     cursor: default;
     text-shadow: 1px 1px #000;
