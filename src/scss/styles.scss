@@ -1,7 +1,12 @@
-@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 @import url(https://fonts.googleapis.com/css?family=Roboto:900);
 @import '~animate.css';
 @import 'variables.scss';
+$body-fill: #fafafa;
+$black: #000;
+body {
+    background: $body-fill;
+}
+
 .main-container {
     height: 100%;
     .container {
@@ -29,7 +34,7 @@
     font-family: 'Roboto';
     color: $nav-item-color;
     cursor: default;
-    text-shadow: 1px 1px #000;
+    text-shadow: 1px 1px $black;
     &:hover {
         color: $nav-item-color-hover;
     }

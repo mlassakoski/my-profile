@@ -7,7 +7,7 @@ $dark-gray:  #555;
 .bar-box {
   width: 40rem;
   height: 100%;
-
+  margin: 2rem 0 2rem 0;
   .bar {
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,7 @@ $dark-gray:  #555;
     }
     .bar-value {
       color: $dark-gray;
-      margin-right: 1rem;
+      margin: 0 0.5rem 0 0.5rem;
       font-weight: bold;
     }
   }
