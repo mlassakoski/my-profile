@@ -13,6 +13,7 @@ $dark-gray:  #555;
             line-height: 1.3em;
             margin-bottom: 0.7em;
             color: $dark-gray;
+            text-align: initial;
         }
         p {
           font-size: 1.2em;
@@ -32,16 +33,34 @@ $dark-gray:  #555;
 
 .skill-panel {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 1rem 0 1rem 0;
     img {
-      max-width:  25rem;
+      max-width:  24rem;
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media (min-width: 768px) {
+  .skill-panel {
+    justify-content: space-between;
+}
+}
+
+@media (min-width: 992px) {
+  .about-me {
+      flex-direction: initial;
+      .text-panel {
+          max-width: 60%;
+      }
+      .img-panel {
+          margin-top: 2rem;
+      }
+  }
+}
+
+@media (min-width: 1024px) {
     .about-me {
         .text-panel {
             margin: 0 2rem 2rem 0;
@@ -52,16 +71,12 @@ $dark-gray:  #555;
             }
         }
     }
+    .skill-panel {
+      justify-content: space-between;
+      img {
+        max-width:  25rem;
+      }
+  }
 }
 
-@media only screen and (min-width: 992px) {
-    .about-me {
-        flex-direction: initial;
-        .text-panel {
-            max-width: 60%;
-        }
-        .img-panel {
-            margin-top: 2rem;
-        }
-    }
-}
+
