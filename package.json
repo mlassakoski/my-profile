@@ -15,7 +15,7 @@
     "lint:ci": "yarn lint && yarn lint:styles",
     "e2e": "ng e2e",
     "deploy": "git push origin master && git push heroku master",
-    "postinstall": "yarn lint:ci && ng build",
+    "postinstall": "ng build",
     "prepush": "yarn lint:ci"
   },
   "engines": {
@@ -27,7 +27,6 @@
     "@angular-devkit/core": "^0.4.3",
     "@angular/animations": "^5.1.0",
     "@angular/cdk": "^5.0.0",
-    "@angular/cli": "^1.7.2",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
     "@angular/compiler-cli": "^5.0.0",
