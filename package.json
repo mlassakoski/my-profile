@@ -15,7 +15,7 @@
     "lint:ci": "yarn lint && yarn lint:styles",
     "e2e": "ng e2e",
     "deploy": "git push origin master && git push heroku master",
-    "postinstall": "lint:ci && ng build",
+    "postinstall": "yarn lint:ci && ng build",
     "prepush": "yarn lint:ci"
   },
   "engines": {
