@@ -1,13 +1,12 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
-@import url(https://fonts.googleapis.com/css?family=Roboto:900);
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
 @import '~animate.css';
 @import 'variables.scss';
 $body-fill: #fafafa;
 $black: #000;
-
 body,
 html {
-  background: $body-fill;
+    background: $body-fill;
 }
 
 .main-container {
@@ -22,10 +21,10 @@ html {
     teximate {
         p {
             display: block;
-            -webkit-margin-before: 0em;
-            -webkit-margin-after: 0em;
-            -webkit-margin-start: 0px;
-            -webkit-margin-end: 0px;
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+            -webkit-margin-start: 0;
+            -webkit-margin-end: 0;
             line-height: 1.1;
         }
     }

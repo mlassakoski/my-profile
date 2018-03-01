@@ -1,6 +1,6 @@
 .skills {
     .skill-card {
-        margin: 2rem 0 2rem 0;
+        margin: 2rem 0;
         .mat-card-header {
             border-bottom: 1px solid #ccc;
             .mat-card-title {
@@ -47,7 +47,7 @@
 @media (min-width: 1360px) {
     .toolbar-menu {
         .nav-menu {
-            width: 60%
+            width: 60%;
         }
     }
 }
@@ -81,7 +81,7 @@
 .typescript,
 .css,
 .angular {
-    background: url(/assets/icons/skills_sprite.png) no-repeat;
+    background: url('/assets/icons/skills_sprite.png') no-repeat;
 }
 
 .bootstrap {

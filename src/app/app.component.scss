@@ -1,4 +1,3 @@
-// @import '@scss/variables.scss';
 $snav-bg: #262728;
 $nav-item-color: #fff;
 $nav-item-color-hover: #bbb;
@@ -10,18 +9,17 @@ $nav-item-color-hover: #bbb;
         background: $snav-bg;
         width: 100%;
         margin: auto;
-
         .logo {
-          a {
-            display: flex;
-            align-items: center;
-            img {
-              width: 3rem;
-                &:hover {
-                    color: $nav-item-color-hover;
+            a {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 3rem;
+                    &:hover {
+                        color: $nav-item-color-hover;
+                    }
                 }
             }
-          }
         }
         button {
             color: $nav-item-color;
@@ -92,24 +90,25 @@ $nav-item-color-hover: #bbb;
 @media (min-width: 1360px) {
     .nav-menu {
         .toolbar-menu {
-            width: 60%
+            width: 60%;
         }
     }
 }
 
 // sprites
-.logo_small_hover, .logo_small_white{
-	background: url(/assets/icons/logo_small_sprites.png) no-repeat;
+.logo_small_hover,
+.logo_small_white {
+    background: url('/assets/icons/logo_small_sprites.png') no-repeat;
 }
 
-.logo_small_hover{
-	background-position: -55px -1px ;
-	width: 52px;
-	height: 52px;
+.logo_small_hover {
+    background-position: -55px -1px;
+    width: 52px;
+    height: 52px;
 }
 
-.logo_small_white{
-	background-position: -1px -1px ;
-	width: 52px;
-	height: 52px;
+.logo_small_white {
+    background-position: -1px -1px;
+    width: 52px;
+    height: 52px;
 }

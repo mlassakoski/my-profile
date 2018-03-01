@@ -1,7 +1,6 @@
-$dark-gray:  #555;
-
+$dark-gray : #555;
 .about-me {
-    font-family: "Roboto:900";
+    font-family: 'Roboto:900';
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,51 +12,56 @@ $dark-gray:  #555;
             line-height: 1.3em;
             margin-bottom: 0.7em;
             color: $dark-gray;
-            text-align: initial;
+            text-align: inherit;
         }
         p {
-          font-size: 1.2em;
-          text-align: justify;
+            font-size: 1.2em;
+            text-align: justify;
         }
     }
     .img-panel {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 1rem 0 1rem 0;
+        margin: 1rem 0;
         img {
             width: 20rem;
         }
     }
 }
-
 .skill-panel {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0;
+    mlassakoski-bar-chart {
+        width: 100%;
+    }
     img {
-      max-width:  24rem;
+        max-width: 24rem;
     }
 }
 
 @media (min-width: 768px) {
-  .skill-panel {
-    justify-content: space-between;
-}
+    .skill-panel {
+        justify-content: space-between;
+        mlassakoski-bar-chart {
+            width: 50%;
+        }
+    }
 }
 
 @media (min-width: 992px) {
-  .about-me {
-      flex-direction: initial;
-      .text-panel {
-          max-width: 60%;
-      }
-      .img-panel {
-          margin-top: 2rem;
-      }
-  }
+    .about-me {
+        flex-direction: inherit;
+        .text-panel {
+            max-width: 60%;
+        }
+        .img-panel {
+            margin-top: 2rem;
+        }
+    }
 }
 
 @media (min-width: 1024px) {
@@ -72,11 +76,9 @@ $dark-gray:  #555;
         }
     }
     .skill-panel {
-      justify-content: space-between;
-      img {
-        max-width:  25rem;
-      }
-  }
+        justify-content: space-between;
+        img {
+            max-width: 25rem;
+        }
+    }
 }
-
-
