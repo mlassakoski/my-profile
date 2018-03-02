@@ -18,10 +18,6 @@
     "postinstall": "ng build",
     "prepush": "yarn lint:ci"
   },
-  "engines": {
-    "node": "9.6.1",
-    "yarn": "1.3.2"
-  },
   "private": true,
   "dependencies": {
     "@angular-devkit/core": "^0.4.3",
