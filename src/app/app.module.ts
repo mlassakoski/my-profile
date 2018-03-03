@@ -39,7 +39,6 @@ import {
   MatTooltipModule,
   MatStepperModule
 } from '@angular/material';
-import {NgxChartsModule} from '@swimlane/ngx-charts';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -97,7 +96,6 @@ import { BarChartComponent } from './shared/bar-chart/bar-chart.component';
     MatNativeDateModule,
     ReactiveFormsModule,
     TeximateModule,
-    NgxChartsModule,
 
     AppRoutingModule
   ],
