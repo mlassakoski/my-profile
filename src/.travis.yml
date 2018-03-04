@@ -1,0 +1,39 @@
+language: node_js
+
+sudo: false
+dist: trusty
+
+node_js:
+  - '6'
+  - '7'
+  - '8'
+
+cache:
+  directories:
+    - node_modules
+
+branches:
+  only:
+  - master
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+
+before_install:
+  - npm i -g yarnpkg
+
+install:
+  - travis_retry npm i
+
+before_script:
+
+script:
+  - yarn lint:ci
+  - yarn build:prod
+
+git:
+  depth: 1
