@@ -13,7 +13,8 @@ import {
   MatSidenavModule,
   MatSlideToggleModule,
   MatToolbarModule,
-  MatListModule
+  MatListModule,
+  MatButtonModule
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -40,6 +41,7 @@ import { BarChartComponent } from './shared/bar-chart/bar-chart.component';
     MatSlideToggleModule,
     MatToolbarModule,
     MatListModule,
+    MatButtonModule,
 
     BrowserModule,
     BrowserAnimationsModule,
